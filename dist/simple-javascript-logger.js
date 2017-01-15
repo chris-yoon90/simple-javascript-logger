@@ -56,7 +56,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	"use strict";
 	var Logger_1 = __webpack_require__(1);
-	module.exports = Logger_1.default;
+	exports.eLogLevel = Logger_1.eLogLevel;
+	exports.Logger = Logger_1.default;
 
 
 /***/ },
@@ -70,7 +71,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    eLogLevel[eLogLevel["WARN"] = 2] = "WARN";
 	    eLogLevel[eLogLevel["INFO"] = 3] = "INFO";
 	    eLogLevel[eLogLevel["LOG"] = 4] = "LOG";
-	})(eLogLevel || (eLogLevel = {}));
+	})(eLogLevel = exports.eLogLevel || (exports.eLogLevel = {}));
 	var Logger = (function () {
 	    function Logger(name, logLevel) {
 	        this.name = name;

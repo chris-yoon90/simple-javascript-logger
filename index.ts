@@ -1,3 +1,4 @@
-import Logger from './src/Logger';
+import LoggerClass, { eLogLevel } from './src/Logger';
 
-export = Logger;
+export { eLogLevel }
+export let Logger = LoggerClass;
