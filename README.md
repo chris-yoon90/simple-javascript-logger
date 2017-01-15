@@ -6,11 +6,14 @@ Example:
 ```
 var logger = new Logger('MyLogger', 4); //Logging level 1
 
-logger.log('Hello World');
+logger.Log('Hello World');
 logger.Info('Hello World');
 logger.Warn('Hello World');
 logger.Error('Hello World');
 ```
+Above code will result in:
+
+
 
 # Logging level
 - Level 1: Only Error
