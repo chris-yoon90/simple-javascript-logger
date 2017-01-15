@@ -11,7 +11,7 @@ Example:
 
 
 // In your javascript code, use it like this.
-var logger = new Logger('MyLogger', 4); //Logging level 1
+var logger = new Logger('MyLogger', 4); // Initialized with logging level 4. See below for logging level.
 
 logger.Log('Hello World');
 logger.Info('Hello World');
