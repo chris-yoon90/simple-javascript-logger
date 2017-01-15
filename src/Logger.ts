@@ -1,4 +1,4 @@
-enum eLogLevel {
+export enum eLogLevel {
     ERROR = 1,
     WARN,
     INFO,
