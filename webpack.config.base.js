@@ -8,7 +8,6 @@ var paths = {
 }
 
 var config = {
-    devtool: "source-map",
     output: {
         library: "Logger",
         libraryTarget: "umd"

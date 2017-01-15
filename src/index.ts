@@ -1,1 +1,3 @@
-export { Logger as default, eLogLevel } from './Logger';
+import Logger from './Logger';
+
+export = Logger;

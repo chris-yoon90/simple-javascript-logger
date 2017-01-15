@@ -56,7 +56,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	"use strict";
 	var Logger_1 = __webpack_require__(1);
-	module.exports = Logger_1.Logger;
+	module.exports = Logger_1.default;
 
 
 /***/ },
@@ -144,7 +144,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 	    return Logger;
 	}());
-	exports.Logger = Logger;
+	Object.defineProperty(exports, "__esModule", { value: true });
+	exports.default = Logger;
 
 
 /***/ }

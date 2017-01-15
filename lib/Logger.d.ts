@@ -4,7 +4,7 @@ export declare enum eLogLevel {
     INFO = 3,
     LOG = 4,
 }
-export declare class Logger {
+export default class Logger {
     private name;
     private logLevel;
     constructor(name: string, logLevel?: eLogLevel);

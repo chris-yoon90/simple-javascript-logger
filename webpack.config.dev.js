@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var webpackConfigBase = require('./webpack.config.base');
 
 const config = Object.create(webpackConfigBase);
+config.devtool = 'source-map';
 config.plugins = [
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.DefinePlugin({
