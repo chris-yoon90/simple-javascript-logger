@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Very simple console wrapper in javascript. Preserves line numbers.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/chris-yoon90/simple-javascript-logger.git",
   "author": "chris.yoon90 <chris.yoon90@gmail.com>",
   "license": "MIT",
