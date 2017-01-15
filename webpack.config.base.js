@@ -9,12 +9,7 @@ var paths = {
 
 var config = {
     devtool: "source-map",
-    entry: {
-        "simple-javascript-logger": path.join(paths.appSrc, 'index.ts')
-    },
     output: {
-        path: paths.appDist,
-        filename: "[name].js",
         library: "Logger",
         libraryTarget: "umd"
     },

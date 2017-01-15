@@ -5,7 +5,7 @@ export enum eLogLevel {
     LOG
 }
 
-export default class Logger {
+export class Logger {
     private name: string;
     private logLevel: eLogLevel;
 

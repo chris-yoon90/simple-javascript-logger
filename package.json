@@ -2,7 +2,7 @@
   "name": "simple-javascript-logger",
   "version": "1.0.3",
   "description": "Very simple console wrapper in javascript. Preserves line numbers.",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
   "repository": "https://github.com/chris-yoon90/simple-javascript-logger.git",
   "author": "chris.yoon90 <chris.yoon90@gmail.com>",
   "license": "MIT",
@@ -14,8 +14,9 @@
     "webpack": "^1.14.0"
   },
   "scripts": {
-    "build:dev": "webpack --color --config webpack.config.dev.js",
-    "build:prod": "webpack --color --config webpack.config.prod.js"
+    "build:lib": "tsc src/index.ts --outDir lib --target es5",
+    "build:umd:dev": "webpack src/standalone.ts dist/simple-javascript-logger.js --color --config webpack.config.dev.js",
+    "build:umd:prod": "webpack src/standalone.ts dist/simple-javascript-logger.min.js --color --config webpack.config.prod.js"
   },
   "keywords": [
     "logger",
