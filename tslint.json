@@ -1,0 +1,19 @@
+{
+  "extends": [ "tslint:recommended"],
+  "rules": {
+    "curly": true,
+    "max-file-line-count": [false],
+    "max-line-length": [false],
+    "eofline": false,
+    "max-classes-per-file": [false],
+    "quotemark": [true, "single", "jsx-double", "avoid-escape"],
+    "no-unused-expression": true,
+    "no-string-literal": false,
+    "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],   
+    "trailing-comma": [false],
+    "no-unused-variable": [true, "react"],
+    "no-console": [false],
+    "object-literal-sort-keys": false,
+    "ordered-imports": [false]
+  }
+}
