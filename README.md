@@ -4,6 +4,13 @@ Simple JavaScript Logger wrapper that preserves line numbers. Written in TypeScr
 
 Example:
 ```
+// Include simple-javascript-logger in your html.
+<script src="simple-javascript-logger.js"></script>
+// OR minified version
+<script src="simple-javascript-logger.min.js"></script>
+
+
+// In your javascript code, use it like this.
 var logger = new Logger('MyLogger', 4); //Logging level 1
 
 logger.Log('Hello World');
