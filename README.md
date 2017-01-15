@@ -17,6 +17,11 @@ logger.Log('Hello World');
 logger.Info('Hello World');
 logger.Warn('Hello World');
 logger.Error('Hello World');
+
+
+// OR if you would like to use it as a module
+import Logger = require('simple-javascript-logger');
+
 ```
 Above code will result in:
 
@@ -28,3 +33,8 @@ Above code will result in:
 - Level 2: Error and Warn
 - Level 3: Error, Warn and Info
 - Level 4: Error, Warn, Info and Log
+
+# How to build
+1) `npm install` packages. You can also use `yarn install`.
+2) `npm run build:dev` to build unminified version.
+3) `npm run build:prod` to build minified version.
