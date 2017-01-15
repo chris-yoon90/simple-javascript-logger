@@ -1,8 +1,8 @@
 {
   "name": "simple-javascript-logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Very simple console wrapper in javascript. Preserves line numbers.",
-  "main": "src/index.ts",
+  "main": "index.ts",
   "repository": "https://github.com/chris-yoon90/simple-javascript-logger.git",
   "author": "chris.yoon90 <chris.yoon90@gmail.com>",
   "license": "MIT",
