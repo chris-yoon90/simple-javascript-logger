@@ -20,7 +20,7 @@ logger.Error('Hello World');
 
 
 // OR if you would like to use it as a module
-import Logger = require('simple-javascript-logger');
+import Logger, { eLogLevel } from 'simple-javascript-logger';
 
 ```
 Above code will result in:
